@@ -165,3 +165,85 @@ header nav {
 .blog-bottom .blog-author {
     align-self: center;
 }
+
+/* FAQ Section */
+
+.faq-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq-content {
+    padding: 70px 0 0 50px;
+}
+
+.faq-content h2 {
+    font-size: 50px;
+}
+
+.faq-content h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ques {
+    font-weight: 600 !important;
+    margin: 20px 0;
+}
+
+.faq-content button {
+    border: none;
+    border-radius: 5px;
+
+    background-color: #5A31FC;
+    color: #FFFFFF;
+
+    font-size: 16px;
+    padding: 7px 25px;
+}
+
+.faq-image img {
+    padding-top: 50px;
+}
+
+/* Download Section */
+
+.download-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 70px 0;
+}
+
+.download-content h1 {
+    font-weight: 600px;
+}
+
+.download-content h1 span {
+    font-weight: 400;
+}
+
+.download-email form {
+    display: flex;
+}
+
+.download-email form input {
+    border: none;
+    background-color: #E9EDFF;
+    width: 360px;
+    padding: 10px 10px;
+    border-radius: 20px 0 0 20px;
+}
+
+.download-email form button {
+    border: none;
+    background-color: #5A31FC;
+    color: #FFFFFF;
+    padding: 10px 40px;
+
+    border-radius: 20px;
+
+    position: relative;
+    right: 10px;
+}

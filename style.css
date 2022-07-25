@@ -247,3 +247,41 @@ header nav {
     position: relative;
     right: 10px;
 }
+
+/* Footer section */
+
+.footer-section {
+    background-color:#4718FE;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-top: 20px;
+}
+ .list li {
+    color: #FFFFFF;
+ }
+
+ .list-items::after {
+    content: "|";
+    position: relative;
+    left: 14px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.logos-list {
+    display: flex;
+    margin-top: 25px;
+    gap: 30px;
+    list-style: none;
+    color: #FFFFFF;
+}

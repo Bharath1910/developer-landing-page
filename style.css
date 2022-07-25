@@ -135,6 +135,7 @@ header nav {
 
 .blog-cards {
     display: flex;
+    margin-top: 40px;
 }
 
 .blog-card {
@@ -153,4 +154,14 @@ header nav {
 .blog-content h3 {
     font-size: 23px;
     padding: 10px 0;
+}
+
+.blog-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.blog-bottom .blog-author {
+    align-self: center;
 }

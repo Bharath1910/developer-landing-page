@@ -8,7 +8,6 @@
     font-family: "Poppins", sans-serif;
 }
 
-
 header {
     background-color: #4617FE;
     padding: 0px 50px;
@@ -47,6 +46,7 @@ header nav {
 
 .header-text {
     flex: 1;
+    padding: 110px 0;
     align-self: center;
 }
 
@@ -62,8 +62,95 @@ header nav {
 
 .header-image {
     flex: 1;
-    width: 550px;
     position: relative;
-    top: 50px;
-    left: 105px;
+}
+
+.header-image img {
+    width: 600px;
+    position: absolute;
+    top: 5px;
+    right: -50px;
+}
+
+.companies {
+    display: flex;
+    width: 62%;
+    justify-content: space-evenly;
+}
+
+.company-items {
+    font-size: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Righteous";
+
+    padding: 23px 0;
+}
+
+.api {
+    padding: 0 50px;
+}
+
+.api h1 {
+    font-size: 50px;
+    padding: 50px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.next {
+    align-self: center;
+}
+
+.next i{
+    background-color: #5A31FC;
+    color: #FFFFFF;
+    padding: 10px 14px;
+    border-radius: 60px;
+}
+
+.blog {
+    padding: 0 50px;
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-heading h1 {
+    padding: 50px 0 5px 0;
+    font-size: 50px;
+}
+
+.blog-heading p {
+    font-size: 25px;
+    align-self: flex-end;
+    color: #4617FE;
+    font-weight: 600;
+}
+
+.blog-cards {
+    display: flex;
+}
+
+.blog-card {
+    display: flex;
+    flex: 1;
+}
+
+.blog-main {
+    padding: 10px 45px;
+}
+
+.blog-content h6 {
+    color: #4718FE;
+}
+
+.blog-content h3 {
+    font-size: 23px;
+    padding: 10px 0;
 }

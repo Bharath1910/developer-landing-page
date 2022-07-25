@@ -8,11 +8,15 @@
     font-family: "Poppins", sans-serif;
 }
 
+
 header {
     background-color: #4617FE;
+    padding: 0px 50px;
+    padding-top: 30px;
 }
 
 header nav {
+    flex: 1;
     display: flex;
     align-items: center;
 }
@@ -22,7 +26,6 @@ header nav {
 }
 
 .nav-items {
-    flex: 1;
     color: #FFFFFF;
 
     display: flex;
@@ -40,4 +43,27 @@ header nav {
 
 .main {
     display: flex;
+}
+
+.header-text {
+    flex: 1;
+    align-self: center;
+}
+
+.header-text h2 {
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.header-text p {
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.header-image {
+    flex: 1;
+    width: 550px;
+    position: relative;
+    top: 50px;
+    left: 105px;
 }

@@ -99,6 +99,16 @@ header nav {
 .cards {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.blog-cards {
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    flex-wrap: wrap;
 }
 
 .next {
@@ -210,6 +220,7 @@ header nav {
 
 .download-section {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 
@@ -284,4 +295,44 @@ header nav {
     gap: 30px;
     list-style: none;
     color: #FFFFFF;
+}
+
+.mobile-sandwich {
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .mobile-sandwich {
+        display: block;
+    }
+
+    .mobile-sandwich a {
+        color: #E9EDFF;
+        font-size: 20px;
+    }
+
+    header {
+        padding: 10px 20px;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .main {
+        flex-wrap: wrap;
+    }
+
+    .header-image {
+        position: static;
+        display: none;
+    }
+
+    .faq-image {
+        display: none;
+    }
+
+    .footer-section {
+        display: none;
+    }
 }
